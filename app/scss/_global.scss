@@ -1,0 +1,65 @@
+// ============== GLOBAL, VARS
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; // Для плавного перелистывание страници
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  display: inline-block;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input,
+select,
+textarea {
+  border: none;
+  outline: none;
+}
+
+.slick-slide {
+  outline: none;
+}
+.slick-list {
+  overflow: visible !important;
+}
